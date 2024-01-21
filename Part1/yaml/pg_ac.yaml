@@ -1,0 +1,12 @@
+# @package _global_
+env_name: bipedalwalker_easy
+agent_name: pg_ac  
+run_id: ??? # decided during execution
+
+train_episodes: 20000
+gamma: 0.99
+lr: 1e-4 
+batch_size: 400
+buffer_size: 8e6 
+ent_coeff: 0.001
+normalize: False

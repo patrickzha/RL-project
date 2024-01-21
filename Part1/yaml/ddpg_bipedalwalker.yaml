@@ -1,0 +1,14 @@
+# @package _global_
+env_name: bipedalwalker_easy
+agent_name: ddpg    
+
+train_episodes: 2000
+gamma: 0.98
+actor_lr: 1e-3
+tau: 0.005
+batch_size: 400 
+buffer_size: 300000
+critic_lr: 1e-3
+use_ou: False
+normalize: False
+#num_interactions: 1000
